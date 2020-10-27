@@ -7,4 +7,4 @@ export default {
     const user = { email, password };
     return axios.post(ENDPOINT_PATH + "login", user);
   }
-    };
+};
